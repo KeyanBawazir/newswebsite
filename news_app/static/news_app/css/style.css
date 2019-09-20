@@ -1,0 +1,92 @@
+/* start general styling */
+body{
+    background-color: #e2e0e0;
+}
+
+.navbar{
+    background-color: #563d7c !important;
+    height: 50px;
+    overflow: hidden;
+    
+    
+}
+
+
+
+.navbar-brand,#navbar ul li a{
+    color:  #FFE484!important;
+
+}
+
+.active a{
+    
+    font-size: 23px;
+  
+}
+
+#navbar ul li a:hover,.active a{
+    background-color: #947eb6 !important;
+}
+
+#login{
+    padding-top:7px;
+}
+
+/* start slide style */
+#carousel-example-generic{
+   padding: 0px;
+   
+    
+}
+.carousel-caption{
+    bottom: 25%;
+    border:1px solid #000;
+    background-color:rgba(0,0,.3);
+    width: 674px;
+    height: 40px;
+    line-height: 70%;
+    
+   
+}
+.glyphicon glyphicon-chevron-left{
+    color: #d9b11f !important;
+}
+/* end slide style */
+/* start top news style */
+.title_tabs{
+    background-color:  #d9b11f;
+    height: 30px;
+    margin-bottom: 0px;
+    padding:5px;
+   
+}
+
+#col :hover{
+    cursor: pointer;
+   
+}
+.artical{
+    border: 1px solid #d9b11f;
+    color:#000;
+    margin: 3px;
+    
+}
+
+
+
+.artical p{
+    padding: 5px;
+    text-align: justify;
+
+}   
+.artical a{
+    padding: 5px;
+    text-decoration: none;
+    color:#d9b11f;
+}
+/*start slide style */
+.bd-example{
+    margin-bottom: 15px;
+}
+
+/* end top news style */

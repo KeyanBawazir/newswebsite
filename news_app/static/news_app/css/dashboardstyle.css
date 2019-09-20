@@ -1,0 +1,158 @@
+
+/* start side bar syle */
+
+/*.wrapper {
+    position: relative;
+    top: 0;
+    height: 100vh;
+}
+
+/*.sidebar {
+    position: fixed;
+    top: 0;
+    bottom: 0;
+    right: auto;
+    left: 0;
+    width: 260px;
+    border:1px solid #563d7c;
+    display: block;
+    z-index: 1;
+    color: #fff;
+    font-weight: 200;
+    padding-top: 60px;
+    padding-left: 10px;
+  
+}
+
+*/
+body{
+    background-color: #212121;
+    color: #878d8d;
+   
+}
+.wrapper {
+   
+    display: flex;
+    width: 100%;
+    align-items: stretch;
+}
+
+/* start sideMenu  style */
+.sideMenu{
+    /*margin-top:60px;*/
+   
+   background-color: #303337;
+    width:250px;
+    height: 100%;
+    position: absolute;
+    top:0;
+    bottom: 0;
+    left:0; 
+    transition: all .3s;   
+    /*transition: all .3 ease;
+    transform:translateX(-100%);
+    z-index: 2000;*/
+}
+
+.sideMenu .sidebar{
+    margin-top:60px;
+    
+    
+}
+
+.sidebar-header{
+   
+}
+.sidebar-header h3 {
+    padding-top: 30px;
+    color: #FFE484 ;
+   
+    
+    
+   
+}
+
+.sideMenu-collapse{
+    margin-left:-250px;
+}
+
+.sidebar .nav-link{
+    display: block;
+    white-space: wrap;
+    background-color: #303337;
+    color: #878d8d;
+    padding-left:10px;
+    -webkit-transition:background-color,color .3s ease-in-out ;
+    -moz-transition:background-color,color .3s ease-in-out ;
+    -o-transition:background-color,color .3s ease-in-out ;
+    -ms-transition:background-color,color .3s ease-in-out ;
+    transition:background-color,color .3s ease-in-out ;
+
+}
+.sidebar .nav-link:hover{
+    background-color:#212121;
+    color: #FFE484 ;
+}    
+
+i.fab fa-windows,i .fas fa-plus,i .far fa-comment,i .fas fa-th-list {
+    margin-right: 4px;
+    height: 25px;
+    width: 25px;
+}
+
+
+
+/*end sideMenu style */
+
+/* strat navbar style*/
+
+.navbar{
+    background-color: #563d7c !important;
+  
+} 
+
+
+#navbar li a:not(.dropdown-item){
+    color: rgba(255, 255, 255, .3);
+}
+.btn{
+    border:1px solid  #FFE484 ;
+    background-color: #563d7c;
+    color: #FFE484;
+    -webkit-transition:background-color .3s ease-in-out ;
+    -moz-transition:background-color .3s ease-in-out ;
+    -o-transition:background-color .3s ease-in-out ;
+    -ms-transition:background-color .3s ease-in-out ;
+    transition:background-color .3s ease-in-out ;
+}
+.btn:hover{
+    background-color:#FFE484;
+    color: #563d7c;
+}  
+/*end navbar */
+
+/*start cotainer */
+.container {
+    
+   position:relative;
+   
+   left: 250px;
+   right: 20px;
+   margin-top:60px;
+  
+  
+  
+}
+/*.dtHorizontalVerticalExampleWrapper {
+    max-width: 600px;
+    margin: 0 auto;
+    }
+    #dtHorizontalVerticalExample th, td {
+    white-space: nowrap;
+}*/
+    
+
+/* end container */
+
+   
+   

@@ -1,0 +1,93 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto+Slab');
+/* start navbar  style */
+body{
+    font-family: 'Roboto Slab', serif;
+    background-color: #e2e0e0;
+}
+.btn{
+    border:1px solid  #FFE484 ;
+    background-color: #563d7c;
+    color: #FFE484;
+    -webkit-transition:background-color .3s ease-in-out ;
+    -moz-transition:background-color .3s ease-in-out ;
+    -o-transition:background-color .3s ease-in-out ;
+    -ms-transition:background-color .3s ease-in-out ;
+    transition:background-color .3s ease-in-out ;
+}
+.btn:hover{
+    background-color:#f5cd28;
+    color: #563d7c;
+} 
+header .navbar{
+    background-color: #563d7c !important;
+}   
+.navbar-brand,.nav-link {
+    color: #FFE484 !important;
+}
+.nav-item .nav-link{
+    -webkit-transition:background .3s ease-in-out ;
+    -moz-transition:background .3s ease-in-out ;
+    -o-transition:background .3s ease-in-out ;
+    -ms-transition:background .3s ease-in-out ;
+    transition:background .3s ease-in-out ;
+
+ }
+.nav-item:hover .nav-link{
+    background: #664991;
+}
+.active{
+    background: #664991;
+}
+/* end navbar style */
+/* start slider style */
+div .carousel-caption{
+    
+    height: 100px;
+    width: 100%;
+    left:0px;
+    
+}
+div .carousel-caption p {
+    background-color:rgba(0,0,0,.7);
+    overflow: hidden;
+    padding-bottom:250px;
+    opacity: .3;
+    -webkit-transition: all .5s ease-in-out;
+    -moz-transition: all .5s ease-in-out;
+    -o-transition: all .5s ease-in-out;
+    -ms-transition: all .5s ease-in-out;
+    transition: all .5s ease-in-out;
+}
+div .carousel-caption p:hover {
+    opacity: 1;
+    -webkit-transform: scale(1.2);
+    -moz-transform: scale(1.2);
+    -o-transform: scale(1.2);
+    -ms-transform: scale(1.2);
+    transform: scale(1.2)
+}
+div .carousel-caption ul {
+    list-style-type: none;
+}
+div .carousel-caption li {
+    height: 54px;
+    text-decoration: none;
+}
+div .carousel-caption li a {
+    font-weight: bold;
+    line-height: 2em;
+    text-decoration: none;
+    color: #fff;
+}
+.carousel-indicators{
+    margin-bottom: 133px;
+}
+.carousel-indicators li {
+    text-indent: 0px;
+    margin: 5px;
+    background-color: #FFE484;
+    width:10px;
+    height: 10px;
+    border-radius: 100%;
+}
+/* end slider style */
